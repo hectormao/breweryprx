@@ -1,0 +1,1 @@
+docker run --name breweryprx-nginx -v ./default.conf:/etc/nginx/conf.d/default.conf:ro -d -p 8080:80 nginx

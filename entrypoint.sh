@@ -1,0 +1,1 @@
+pm2-runtime start -n brewery-proxy package/dist/main.js
